@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meus Scripts</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+  
+  body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f0f1a, #1a1a2e, #16213e);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    color: #fff;
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #00f2ea, #ff0050);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+    border: 3px solid #fff;
+  }
+  
+  h1 { font-size: 22px; margin-bottom: 5px; }
+  .bio { color: #aaa; font-size: 14px; margin-bottom: 30px; text-align: center; }
+  
+  .links { width: 100%; max-width: 400px; display: flex; flex-direction: column; gap: 12px; }
+  
+  .link-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 20px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 12px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.25s ease;
+  }
+  
+  .link-btn:hover {
+    background: rgba(255,255,255,0.18);
+    transform: translateY(-2px);
+    border-color: #00f2ea;
+  }
+  
+  .link-btn .icon { font-size: 20px; }
+  
+  footer { margin-top: 40px; color: #555; font-size: 12px; }
+</style>
+</head>
+<body>
+
+  <div class="avatar">👤</div>
+  <h1>Seu Nome Aqui</h1>
+  <p class="bio">Meus scripts e projetos ✨</p>
+
+  <div class="links">
+    <a class="link-btn" href="LINK_DO_SCRIPT_1" target="_blank">
+      <span class="icon">📜</span> Script 1
+    </a>
+    <a class="link-btn" href="LINK_DO_SCRIPT_2" target="_blank">
+      <span class="icon">📜</span> Script 2
+    </a>
+    <a class="link-btn" href="LINK_DO_SCRIPT_3" target="_blank">
+      <span class="icon">📜</span> Script 3
+    </a>
+    <a class="link-btn" href="LINK_DO_SCRIPT_4" target="_blank">
+      <span class="icon">📜</span> Script 4
+    </a>
+  </div>
+
+  <footer>© 2025 - Todos os direitos reservados</footer>
+
+</body>
+</html>
